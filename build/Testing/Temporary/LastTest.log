@@ -1,0 +1,30 @@
+Start testing: Oct 16 17:02 MSK
+----------------------------------------------------------
+1/1 Testing: matrix_multiplication_tests
+1/1 Test: matrix_multiplication_tests
+Command: "/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/matrix_multiplication_tests"
+Directory: /Users/ajdamir/Downloads/downloads/matrix-multiplication/build
+"matrix_multiplication_tests" start time: Oct 16 17:02 MSK
+Output:
+----------------------------------------------------------
+PASS row loop
+PASS column loop
+PASS SIMD layout loop
+PASS unrolled reference
+SKIP SSE v1 (CPU instruction set unavailable)
+SKIP SSE v2 (CPU instruction set unavailable)
+SKIP SSE v3 (CPU instruction set unavailable)
+SKIP SSE v4 streaming (CPU instruction set unavailable)
+SKIP AVX v1 (CPU instruction set unavailable)
+SKIP AVX v2 (CPU instruction set unavailable)
+SKIP AVX + FMA (CPU instruction set unavailable)
+PASS edge cases and randomized comparisons (500 samples)
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"matrix_multiplication_tests" end time: Oct 16 17:02 MSK
+"matrix_multiplication_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 16 17:02 MSK

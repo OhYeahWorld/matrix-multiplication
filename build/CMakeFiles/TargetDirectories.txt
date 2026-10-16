@@ -1,0 +1,5 @@
+/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/CMakeFiles/matrix_multiplication.dir
+/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/CMakeFiles/matrix_multiplication_tests.dir
+/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/CMakeFiles/test.dir
+/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/CMakeFiles/edit_cache.dir
+/Users/ajdamir/Downloads/downloads/matrix-multiplication/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmatrix_multiplication.a CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.o
+/usr/bin/ranlib libmatrix_multiplication.a

@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.16)
+project(matrix_multiplication_examples LANGUAGES CXX)
+
+add_library(matrix_multiplication matrix_multiplication.cpp)
+target_compile_features(matrix_multiplication PUBLIC cxx_std_17)
+target_include_directories(matrix_multiplication PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_executable(matrix_multiplication_tests matrix_multiplication_tests.cpp)
+target_link_libraries(matrix_multiplication_tests PRIVATE matrix_multiplication)
+
+enable_testing()
+add_test(NAME matrix_multiplication_tests COMMAND matrix_multiplication_tests)
